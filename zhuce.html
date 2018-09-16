@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>注册</title>
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no">
+	<link rel="stylesheet" href="css/rem.css">
+	<link rel="stylesheet" href="https://at.alicdn.com/t/font_793301_ssczj2jw8zn.css">
+	<link rel="stylesheet" href="css/zhuce.css">
+</head>
+<body>
+	<header>
+		<input type="text"  placeholder="请输入手机号" class="phone">
+		<input type="text"  placeholder="请输入验证码" class="yanzheng">
+	    <input type="password"  placeholder="请输入密码" class="password">
+	    <div class="yanzhengma">获取验证码</div>
+		<div class="daojishi"><span>60</span>s</div>
+		<a href="denglu.html"><div class="ture">注册
+	    	
+	    </div></a>
+	    <a href="denglu.html"><div class="denglu">登录</div></a>
+	</header>
+</body>
+</html>
+<script>
+	let yanzhengma=document.querySelector(".yanzhengma");
+	let ture=document.querySelector(".ture");
+	let daojishi=document.querySelector(".daojishi");
+	let span=document.querySelector("span");
+	let phone=document.querySelector(".phone");
+	let yanzheng=document.querySelector(".yanzheng");
+	let password=document.querySelector(".password");
+	console.log(phone,yanzheng,password);
+	yanzhengma.onclick=function () {
+		daojishi.style.display="block";
+    }
+    let num=span.innerHTML;
+    console.log(num);
+    //创建时间间隔函数
+    var t=setInterval(fn,1000);
+    function fn() {
+        num--;
+        if (num==0){
+            //清除时间间隔函数
+            clearInterval(t);
+        }
+        //改变span中的数字
+        span.innerHTML=num;
+    }
+    password.onblur=function () {
+        if (phone.value!=="" && password.value!=="" && yanzheng.value!==""){
+            ture.style.backgroundColor="#F057C9";
+        }
+    }
+
+	
+</script>

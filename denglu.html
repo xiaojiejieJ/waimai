@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>登录</title>
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no">
+	<link rel="stylesheet" href="css/rem.css">
+	<link rel="stylesheet" href="css/denglu.css">
+</head>
+<body>
+	<header>
+		<input type="text"  placeholder="请输入手机号" class="phone">
+	    <input type="password"  placeholder="请输入密码" class="password">
+	    <!--<input type="text"  placeholder="忘记密码？">-->
+	    <div class="ture">登录
+	    	<i class="iconfont icon-dui"></i>
+	    </div>
+
+	    <a href="zhuce.html"><div class="denglu">注册</div></a>
+	    <div class="qq"></div>
+	    <div class="wechat"></div>
+	    <div class="weibo"></div>
+	</header>
+</body>
+</html>
+<script>
+    let phone=document.querySelector(".phone");
+    let password=document.querySelector(".password");
+    let ture=document.querySelector(".ture");
+    password.onblur=function () {
+        if (phone.value=="15635461358" && password.value=="123456"){
+            ture.style.backgroundColor="#F057C9";
+        }
+    }
+    ture.onclick=function () {
+        if (phone.value=="15635461358" && password.value=="123456"){
+            window.open("index.html");
+		}
+    }
+</script>

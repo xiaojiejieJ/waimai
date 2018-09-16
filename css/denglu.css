@@ -1,0 +1,117 @@
+/*
+* @Author: nanjiao
+* @Date:   2018-08-15 16:12:19
+* @Last Modified by:   nanjiao
+* @Last Modified time: 2018-09-15 16:33:25
+*/
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	font-family: "苹方";
+	background-repeat: no-repeat;
+}
+a{
+	text-decoration: none;
+}
+i{
+	font-style: normal;
+}body{
+	background: #fff;
+}
+header{
+	width: 100%;
+	height: 13.66rem;
+	background-image: url('../img/images6/images/3.png');
+	background-size: 100% 100%;
+	overflow: hidden;
+	position: relative;
+}
+input{
+	width: 2rem;
+	position: absolute;
+	top: 6.6rem;
+	left: 1.8rem;
+	outline: none;
+	border: 0;
+    background: #f9f9f9;
+}
+.phone{
+	top: 6.8rem;
+	left: 2rem;
+}
+.password{
+	top: 7.2rem;
+	left: 2rem;
+}
+input::-webkit-input-placeholder{
+	color: #cdcbcb;
+}
+input:nth-child(2){
+	margin-top: 0.85rem;
+	outline: none;
+	border: 0;
+    background: #f9f9f9;
+
+}
+input:nth-child(3){
+	margin-top: 1.7rem;
+	outline: none;
+	border: 0;
+    background: #f9f9f9;
+}
+
+.ture{
+	width: 2rem;
+	height: 0.8rem;
+	text-align: center;
+	font-size: 0.38rem;
+	line-height: 0.8rem;
+	color: #fff;
+	background-color: #c5c5c5;
+	border-radius: 0.5rem;
+	border: 0.01rem solid #fff;
+	position: absolute;
+	top: 9.84rem;
+	left: 2.72rem;
+}
+.denglu{
+	width: 2rem;
+	height: 0.8rem;
+	background-color: #F057C9;
+	border-radius: 0.5rem;
+	font-size: 0.4rem;
+	font-weight: bold;
+	color: #fff;
+	text-align: center;
+	line-height: 0.8rem;
+	margin-left: 5.08rem;
+	margin-top: 0.58rem;
+}
+header .qq{
+	width: 1.04rem;
+	height: 1.04rem;
+	background-image: url('../img/images6/images/QQ.png');
+	background-size: 100% 100%;
+	margin-top: 10.74rem;
+	margin-left: 1.9rem;
+	float: left;
+}
+header .wechat{
+	width: 1.04rem;
+	height: 1.04rem;
+	background-image: url('../img/images6/images/weixin.png');
+	background-size: 100% 100%;
+	margin-top: 10.74rem;
+	margin-left: 0.32rem;
+	float: left;
+}
+header .weibo{
+	width: 1.04rem;
+	height: 1.04rem;
+	background-image: url('../img/images6/images/zfb.png');
+	background-size: 100% 100%;
+	margin-top: 10.74rem;
+	margin-left: 0.32rem;
+	float: left;
+}

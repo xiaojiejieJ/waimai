@@ -1,0 +1,312 @@
+/*
+* @Author: 我的文档
+* @Date:   2018-08-08 08:50:35
+* @Last Modified by:   nanjiao
+* @Last Modified time: 2018-09-15 17:39:46
+*/
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	font-family: "苹方";
+	background-repeat: no-repeat;
+}
+a{
+	text-decoration: none;
+}
+i{
+	font-style: normal;
+}
+header {
+	width: 100%;
+	height: 1rem;
+	background-color: #e945cb;
+	position: fixed;
+	top: 0;
+}
+header .pos img{
+	width: 0.6rem;
+	height: 0.6rem;
+	margin-left: 0.2rem;
+	margin-top: 0.08rem;
+	float: left; 
+
+}
+header  a{
+	width: 1.8rem;
+	height: 100%;
+	color: #fff;
+	font-size: 0.32rem;
+	margin-top: 0.6rem;
+	float: left; 
+	margin-left: -0.5rem;
+}
+header  p{
+	width: 1rem;
+	height: 100%;
+	color: #fff;
+	font-size: 0.32rem;
+    margin-top: 0.25rem;
+	float: left;  
+	margin-left: -1.2rem;
+	text-align: center;
+}
+header .x img{
+	width: 0.6rem;
+	height: 0.6rem;
+	margin-left: -0.2rem;
+	margin-top: 0.2rem;
+	float: left; 
+
+}
+header input{
+	width: 3.6rem;
+	height: 0.43rem;
+	margin-top: 0.28rem;
+	float: left;
+	border-radius: 0.2rem;
+	border: 0;
+	background-image: url('../img/images/sousuo_03.png');
+	background-repeat: no-repeat;
+	background-size: 0.56rem 0.45rem;
+	padding-left: 0.54rem;
+	outline: none;
+}
+header .s img{
+	width: 0.4rem;
+	height: 0.4rem;
+	margin-left: 0.1rem;
+	margin-top: 0.15rem;
+	float: left; 
+
+}
+header .s a{
+	width: 0.6rem;
+	height: 100%;
+	color: #fff;
+	font-size: 0.18rem;
+	margin-top: 0.6rem;
+	float: left; 
+	margin-left: -0.5rem;
+}
+input::-webkit-input-placeholder{
+	color: #e1e1e1;
+	font-size: 0.24rem;
+}
+.banner{
+	width: 100%;
+	height: 3.26rem;
+	background-repeat: no-repeat;
+	margin-top: 1.02rem;
+}
+.swiper-container {
+    width: 100%;
+    height:  3.26rem;
+} 
+.swiper-slide img{
+    width: 100%;
+    height: 100%;
+}
+
+
+.nav{
+	width: 100%;
+	height: 4.1rem;
+}
+nav main ul{
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+nav ul li{
+	width: 100%;
+	height: 3rem;
+	background-image: url('../img/images/3.png');
+	background-size: 100% 3rem;
+	margin-top: 0.24rem;
+}
+.good{
+	width: 100%;
+	height: 0.96rem;
+}.good img{
+	width: 100%;
+	height: 0.96rem;
+}
+.good .content{
+	width: 7.02rem;
+	height: 2rem;
+	margin-left:0.24rem;
+}
+.good .content .left{
+	width: 3.45rem;
+	height: 100%;
+	background-image: url('../img/images/01-1.png');
+	background-size: 3.45rem 2rem;
+	float: left;
+}
+.good .content .right1{
+	width: 3.57rem;
+	height: 1rem;
+	float: left;
+	background-image: url('../img/images/01-2.png');
+	background-size: 3.57rem 1rem;
+}
+.good .content .right2{
+	width: 3.57rem;
+	height: 1rem;
+	float: left;
+	background-image: url('../img/images/01-3.png');
+	background-size: 3.57rem 1rem;
+}
+.tuijian img{
+	width: 7.5rem;
+	height: 1.32rem;
+}
+.tuijian .title{
+	width: 7.02rem;
+	height: 0.59rem;
+	margin-left: 0.24rem;
+	display: flex;
+	justify-content: space-between;
+}
+.tuijian .title .title1{
+	width: 1.47rem;
+	height: 0.42rem;
+	border-radius:0.3rem;
+	border: 0.01rem solid #e945cb;
+	position: relative;
+}
+.tuijian .title .title1 a{
+	font-size: 0.22rem;
+	position: absolute;
+	top: 0.04rem;
+	left: 0.24rem;
+	color: #e945cb;
+}
+.tuijian .list{
+	width: 7.02rem;
+	height: 1.92rem;
+	margin-left: 0.24rem;
+	border-bottom: 0.01rem solid #f7f7f7;
+}
+.tuijian .list .pic{
+	width: 1.52rem;
+	height: 1.91rem;
+	background-image: url('../img/images/list1.png');
+	background-size: 1.52rem 1.92rem;
+	float: left;
+}
+.tuijian .list .pic2{
+	width: 1.52rem;
+	height: 1.52rem;
+	background-image: url('../img/images/35.png');
+	background-size: 1.52rem 1.52rem;
+	margin-top: 0.2rem;
+	float: left;
+}
+.tuijian .list .pic3{
+	width: 1.52rem;
+	height: 1.52rem;
+	background-image: url('../img/images/36.png');
+	background-size: 1.52rem 1.52rem;
+	margin-top: 0.2rem;
+	float: left;
+}
+.tuijian .list .pic4{
+	width: 1.52rem;
+	height: 1.52rem;
+	background-image: url('../img/images/37.png');
+	background-size: 1.52rem 1.52rem;
+	margin-top: 0.2rem;
+	float: left;
+}
+.tuijian .list .content{
+	width: 5.5rem;
+	padding-top: 0.3rem;
+	float: left;
+}
+.tuijian .list .content h6{
+	font-size: 0.3rem;
+}
+.tuijian .list .content .er .star{
+	font-size: 0.22rem;
+	color: #f8e36e;
+}
+.tuijian .list .content .er{
+	display: flex;
+	justify-content: space-between;
+}
+.tuijian .list .content .er span{
+	color: #000;
+}
+.tuijian .list .content .er .yue{
+	font-size: 0.18rem;
+	margin-left: -0.3rem;
+}
+.tuijian .list .content .er .time{
+	font-size: 0.18rem;
+}
+.tuijian .list .content .san{
+	font-size: 0.18rem;
+}
+.tuijian .list .content .si .left{
+	width:0.55rem;
+	height: 0.3rem;
+	border: 0.01rem solid #e945cb;
+	border-radius: 0.2rem;
+	margin-top: 0.03rem;
+	font-size: 0.16rem;
+	line-height: 0.25rem;
+	text-align: center;
+	float: left;
+}
+.tuijian .list .content .si p{
+	font-size: 0.18rem;
+	margin-left: 0.22rem;
+	float: left;
+}
+.tuijian .k{
+	width: 100%;
+	height: 1rem;
+}
+.bottom{
+	width: 100%;
+	height: 0.98rem;
+	background-color: #fff;
+	position: fixed;
+	bottom: 0;
+}
+.bottom .content{
+	width: 5.75rem;
+	height: 100%;
+	margin-left: 1.6rem;
+	display: flex;
+	justify-content: space-between;
+	margin-top: 0.06rem;
+}
+.bottom .content .shou{
+	width: 0.88rem;
+	height: 0.88rem;
+	background-image: url('../img/images/11.png');
+	background-size: 0.88rem 0.88rem;
+	margin-top: 0.02rem;
+	margin-left: -1.5rem;
+}
+.bottom .content .fa{
+	width: 0.88rem;
+	height: 0.88rem;
+	background-image: url('../img/images/12.png');
+	background-size: 0.88rem 0.88rem;
+}
+.bottom .content .ding{
+	width: 0.88rem;
+	height: 0.88rem;
+	background-image: url('../img/images/13.png');
+	background-size: 0.88rem 0.88rem;
+}
+.bottom .content .me{
+	width: 0.88rem;
+	height: 0.88rem;
+	background-image: url('../img/images/14.png');
+	background-size: 0.88rem 0.88rem;
+}

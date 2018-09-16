@@ -1,0 +1,418 @@
+/*
+* @Author: 我的文档
+* @Date:   2018-08-09 09:29:33
+* @Last Modified by:   nanjiao
+* @Last Modified time: 2018-09-16 16:18:52
+*/
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	font-family: "苹方";
+	background-repeat: no-repeat;
+}
+a{
+	text-decoration: none;
+}
+i{
+	font-style: normal;
+}
+body{
+	width: 100%;
+	height: 100%;
+}
+header{
+	width: 100%;
+	height: 0.98rem;
+	background-color: #e945cb;
+	position: fixed;
+	top: 0;
+	/* left: 0; */
+}
+header .f img{
+	width: 0.6rem;
+	height: 0.6rem;
+	margin-left: 0.1rem;
+	margin-top: 0.2rem;
+	float: left; 
+}
+header .d p{
+	width: 2rem;
+	height: 100%;
+	color: #fff;
+	font-size: 0.38rem;
+    margin-top: 0.2rem;
+	float: left;  
+	margin-left: 1.6rem;
+	text-align: center;
+}
+header .d h4{
+	width: 3rem;
+	height: 100%;
+	color: #F08DDB;
+	font-size: 0.38rem;
+    margin-top: -0.2rem;
+	float: left;  
+	margin-left: 1.1rem;
+	text-align: center;
+}
+header .s img{
+	width: 0.6rem;
+	height: 0.6rem;
+	margin-left: 0.2rem;
+	margin-top: -0.5rem;
+	float: left; 
+}
+header .sc img{
+	width: 0.6rem;
+	height: 0.6rem;
+	margin-left: 0.4rem;
+	margin-top: -0.5rem;
+	float: left; 
+}
+header .fx img{
+	width: 0.6rem;
+	height: 0.6rem;
+	margin-left: 2rem;
+	margin-top: -0.6rem;
+	float: left; 
+}
+banner .b{
+	width: 100%;
+	height: 3.26rem;
+	position: absolute;
+	margin-top: 0.98rem;
+	background-image: url('../img/images1/banner.png');
+	background-size: 8.13rem 3.26rem; 
+}
+.daohang{
+	width: 100%;
+	height: 0.94rem;
+	background-color: #fff;
+	box-shadow: 0 0.01rem  0.05rem #888787;
+	display: flex;
+	justify-content: space-between;
+	position: fixed;
+	top: 4rem;
+	left: 0;
+	margin-top: 0.27rem;
+}
+.daohang .fl{
+	width: 2.22rem;
+	height: 100%;
+	color: #545454;
+	text-align: center;
+	line-height: 1rem;
+	font-size: 0.32rem;
+}
+.daohang .dingcan{
+	color: #e945cb;
+}
+nav{
+	width: 8.1rem;
+	height: calc(100%-465);
+	margin-top: 0.06rem;
+	position: fixed;
+	top: 3.67rem;
+	left: 0;
+}
+nav .list {
+	width: 2.14rem;
+	height:7rem;
+	overflow: hidden;
+	/* overflow: scroll;  */
+	float: left;
+	margin-top: 1.5rem;
+}
+nav .list ul li{
+	width: 2.13rem;
+	height:1.1rem;
+	background-color: #f7f7f7;
+	font-size: 0.28rem;
+	color: #545454;
+	text-align: center;
+	line-height: 1.1rem; 
+}
+nav .list ul li:nth-child(2){
+	background-color: #e945cb;
+	color: #fff;
+}
+nav .content{
+	width: 6.06rem; 
+	height: 7rem;
+	float: left;
+	overflow: scroll;
+	margin-left: -0.1rem;
+	margin-top: 1.48rem;
+}
+nav .content ul li{
+	width: 7rem;
+	height: 2.12rem;
+	margin-top: 0.24rem;
+	margin-left: 0.24rem;
+	background-color: #fff;
+	box-shadow: 0  0.02rem  0.09rem  0.03rem  #c2c1c1;
+}
+nav .content ul li .pic{
+	width: 2rem;
+	height: 100%;
+	background-image: url('../img/images1/1.png');
+	background-size: 1.8rem 1.8rem; 
+	float: left;
+	margin-top: 0.15rem;
+	margin-left: 0.08rem;
+}
+nav .content ul li .pic2{
+	width: 2rem;
+	height: 100%;
+	background-image: url('../img/images1/2.png');
+	background-size: 1.8rem 1.8rem; 
+	float: left;
+	margin-top: 0.15rem;
+	margin-left: 0.08rem;
+}
+nav .content ul li .pic3{
+	width: 2rem;
+	height: 100%;
+	background-image: url('../img/images1/3.png');
+	background-size: 1.8rem 1.8rem; 
+	float: left;
+	margin-top: 0.15rem;
+	margin-left: 0.08rem;
+}
+nav .content ul li .pic4{
+	width: 2rem;
+	height: 100%;
+	background-image: url('../img/images1/4.png');
+	background-size: 1.8rem 1.8rem; 
+	float: left;
+	margin-top: 0.15rem;
+	margin-left: 0.08rem;
+}
+nav .content ul li .pic5{
+	width: 2rem;
+	height: 100%;
+	background-image: url('../img/images1/5.png');
+	background-size: 1.8rem 1.8rem; 
+	float: left;
+	margin-top: 0.15rem;
+	margin-left: 0.08rem;
+}
+nav .content ul li .pic6{
+	width: 2rem;
+	height: 100%;
+	background-image: url('../img/images1/6.png');
+	background-size: 1.8rem 1.8rem; 
+	float: left;
+	margin-top: 0.15rem;
+	margin-left: 0.08rem;
+}
+nav .content ul li .pic7{
+	width: 2rem;
+	height: 100%;
+	background-image: url('../img/images1/7.png');
+	background-size: 1.8rem 1.8rem; 
+	float: left;
+	margin-top: 0.15rem;
+	margin-left: 0.08rem;
+}
+nav .content ul li .wenzi{
+	width: 3.4rem;
+	height: 1.85rem;
+	margin-top: 0.15rem;
+	float: left;
+}
+nav .content ul li .wenzi h1{
+	font-size: 0.28rem;
+	font-weight: bold;
+}
+nav .content ul li .wenzi h1 a{
+	color: #000;
+}
+nav .content ul li .wenzi h2{
+	font-size: 0.22rem;
+	font-weight:normal;
+	margin-top: 0.02rem;
+}
+nav .content ul li .wenzi h3{
+	font-size: 0.20rem;
+	font-weight:normal;
+	margin-top: 0.02rem;
+}
+nav .content ul li .wenzi .si{
+	height: 0.28rem;
+	margin-top: 0.02rem;
+}
+nav .content ul li .wenzi .si .zhe{
+	width: 0.56rem;
+	height: 0.24rem;
+	border: 0.01rem solid #e945cb;
+	font-size: 0.18rem;
+	font-weight:lighter;
+	text-align: center;
+	line-height: 0.24rem;
+	color: #e945cb;
+	float: left;
+}
+nav .content ul li .wenzi .si h4{
+	font-size: 0.18rem;
+	font-weight: lighter;
+	color: #e945cb;
+	float: left;
+	margin-left: 0.06rem;
+}
+nav .content ul li .wenzi .wu h5{
+	font-size: 0.38rem;
+	color: #e945cb;
+	font-weight: bolder;
+	float: left;
+	margin-top: 0.01rem;
+	margin-left: -0.1rem;
+}
+nav .content ul li .wenzi .wu img{
+	float: right;
+	width: 0.41rem;
+	height: 0.41rem;
+	margin-top: 0.08rem;
+	margin-right: 0.4rem;
+}
+nav .content ul li .wenzi .wu img:nth-of-type(2){
+	display: none;
+	margin-right: 0.2rem;
+}
+nav .content ul li .wenzi .wu h6{
+	font-size: 18px;
+	float: right;
+	margin-right: 0.15rem;
+	margin-left: 0.15rem;
+	display: none;
+}
+.bottom{
+
+	width: 100%;
+	height: 1rem;
+	margin-top: 0.27rem;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	background-color: #fff;
+}
+.bottom .pic{
+	width: 1.09rem;
+	height: 1.11rem;
+	position: absolute;
+	top: -0.3rem;
+	left: 0.21rem;
+	background-image: url('../img/images2/gouwuche.png');
+	background-size: 1.09rem 1.11rem;
+	float: left;
+}
+.bottom .weixuan{
+	margin-left: 1.47rem;
+	float: left;
+}
+.bottom .weixuan h1{
+	font-size: 0.24rem;
+	font-weight: normal;
+	color: #6b6b6b;
+}
+.bottom .qisong{
+	width: 2.05rem;
+	height: 0.6rem;
+	border-radius: 0.3rem;
+	background-color:#6b6b6b;
+	margin-left: 5.2rem;
+	font-size: 0.3rem;
+	
+	text-align: center;
+	line-height: 0.6rem;
+	margin-top: 0.1rem;
+}
+.bottom .qisong a{
+	color: #fff;
+}
+.bot{
+	display: none;
+	z-index: 3;
+}
+.bot .pic{
+	background-image: url('../img/images2/gouwuche3.png');
+}
+.bot .weixuan h1:nth-child(1){
+	font-size: 18px;
+	color: #e945cb;
+}
+.bot .qisong{
+	background: #e945cb;
+	color: #fff;
+}
+.mask{
+	width: 100%;
+	height: 100%;
+	background: rgba(0, 0, 0, 0.5);
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 10;
+	display: none;
+}
+.mask .upper{
+	width: 5.48rem;
+	height: 5.61rem;
+	background: #e945cb;
+	margin-top: 3.5rem;
+	margin-left: 1rem;
+	border-radius: 0.6rem;
+	overflow: hidden;
+}
+.mask .upper .tu{
+	width: 100%;
+	height: 3.62rem;
+	border-radius: 0.6rem 0.6rem 0 0;
+	background-color: #fff;
+	background-image: url('../img/images2/01.png');
+	background-size: 5.48rem 3.62rem;
+}
+ .mask .upper .tu p{
+	font-size:0.4rem;
+	 float: right;
+	 margin-right: 0.4rem;
+}
+.mask .upper .xia{
+	width: 100%;
+	height: 1.99rem;
+	border-radius: 0 0 0.6rem 0.6rem;
+}
+.mask .upper .xia p{
+	font-size: 0.28rem;
+	font-weight: bold;
+	margin-left: 0.32rem;
+	margin-top: 0.2rem;
+}
+.mask .upper .xia h6{
+	font-size: 0.22rem;
+	color: #363636;
+	margin-left: 0.32rem;
+}
+.mask .upper .xia h5{
+	font-size: 0.38rem;
+	font-weight: bold;
+	color: #fff;
+	margin-left: 0.32rem;
+	margin-top: 0.2rem;
+	float: left;
+}
+.mask .upper .xia .q{
+	width: 1.56rem;
+	height: 0.56rem;
+	border-radius: 0.3rem;
+	background-color: #fff;
+	font-size: 0.26rem;
+	font-weight: bold;
+	color: #e945cb;
+	text-align: center;
+	line-height: 0.56rem;
+	float: right;
+	margin-right: 0.32rem;
+	margin-top: 0.2rem;
+}
