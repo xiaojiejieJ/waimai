@@ -1,8 +1,8 @@
 /*
 * @Author: nanjiao
 * @Date:   2018-08-15 16:59:25
-* @Last Modified by:   nanjiao
-* @Last Modified time: 2018-08-16 21:34:28
+* @Last Modified by:   xiaojiejieJ
+* @Last Modified time: 2018-09-18 18:09:38
 */
 *{
 	margin: 0;
@@ -73,4 +73,46 @@ header{
 	background-size: 0.95rem 0.95rem;
 	margin-top: -0.16rem;
     margin-right: 0.49rem;
+}
+.zhong{
+	width: 100%;
+	height: 4rem;
+	/* margin-top: 0.32rem; */
+	background: #fff;
+	overflow-x: auto;
+	margin-top: -11.2rem;
+    z-index: 999;
+}
+.zhong ul{
+	width: 13rem;
+	height: 100%;
+	background: #fff;
+	display: flex;
+	justify-content: space-between;
+    
+}
+.zhong ul li{
+	width: 2.62rem;
+	height: 3.74rem;
+	padding-right: 0.3rem;
+	padding-left: 0.3rem;
+}
+.zhong ul li div{
+	width: 100%;
+	height: 3.74rem;
+	background: #fff;
+}
+.zhong ul li .tu{
+	width: 2.62rem;
+	height: 3.74rem;
+	background-size: cover;
+	margin-left: 0.1rem;
+	
+}
+.zhong ul li .tu img{
+	width: 2.62rem;
+	height: 3.74rem;
+	/* background-size: cover;
+	margin-left: 0.1rem; */
+	
 }
